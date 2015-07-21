@@ -1,0 +1,31 @@
+{
+  "name": "readdirs-absolute",
+  "version": "1.0.0",
+  "description": "As readdir-absolute but for an array of directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/readdirs-absolute.git"
+  },
+  "keywords": [
+    "fs",
+    "readdir",
+    "readdirs",
+    "absolute paths"
+  ],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/readdirs-absolute/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/readdirs-absolute#readme",
+  "devDependencies": {
+    "tape": "^4.0.1"
+  },
+  "dependencies": {
+    "readdir-absolute": "^1.0.0"
+  }
+}
